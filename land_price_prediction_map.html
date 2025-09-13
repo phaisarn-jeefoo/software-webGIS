@@ -1,0 +1,2386 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_a1ea1eb12cfad8072b7939ac04efaba7 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_a1ea1eb12cfad8072b7939ac04efaba7" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_a1ea1eb12cfad8072b7939ac04efaba7 = L.map(
+                "map_a1ea1eb12cfad8072b7939ac04efaba7",
+                {
+                    center: [13.736717, 100.523186],
+                    crs: L.CRS.EPSG3857,
+                    ...{
+  "zoom": 11,
+  "zoomControl": true,
+  "preferCanvas": false,
+}
+
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_7a81e83d73311db5dbb7ce57f3857380 = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {
+  "minZoom": 0,
+  "maxZoom": 19,
+  "maxNativeZoom": 19,
+  "noWrap": false,
+  "attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors",
+  "subdomains": "abc",
+  "detectRetina": false,
+  "tms": false,
+  "opacity": 1,
+}
+
+            );
+        
+    
+            tile_layer_7a81e83d73311db5dbb7ce57f3857380.addTo(map_a1ea1eb12cfad8072b7939ac04efaba7);
+        
+    
+            var circle_marker_0d91adaccab60ff88d237fd825680f5c = L.circleMarker(
+                [13.712362035654209, 100.40942875570603],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_a1ea1eb12cfad8072b7939ac04efaba7);
+        
+    
+        var popup_b73dd53516e3d5b5f306189c4a850a46 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_39fe13f53b156c204428f7d1daac047f = $(`<div id="html_39fe13f53b156c204428f7d1daac047f" style="width: 100.0%; height: 100.0%;">Predicted Price: 84227.45 Baht/sq.wah</div>`)[0];
+                popup_b73dd53516e3d5b5f306189c4a850a46.setContent(html_39fe13f53b156c204428f7d1daac047f);
+            
+        
+
+        circle_marker_0d91adaccab60ff88d237fd825680f5c.bindPopup(popup_b73dd53516e3d5b5f306189c4a850a46)
+        ;
+
+        
+    
+    
+            var circle_marker_54d2affe248589ff0b3af94f95d75d6c = L.circleMarker(
+                [13.885214291922976, 100.59092312337914],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_a1ea1eb12cfad8072b7939ac04efaba7);
+        
+    
+        var popup_3bcb0b0fbefb2fb3df747561496af424 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_46110f57e9435ede014b2905e343ea56 = $(`<div id="html_46110f57e9435ede014b2905e343ea56" style="width: 100.0%; height: 100.0%;">Predicted Price: 79744.36 Baht/sq.wah</div>`)[0];
+                popup_3bcb0b0fbefb2fb3df747561496af424.setContent(html_46110f57e9435ede014b2905e343ea56);
+            
+        
+
+        circle_marker_54d2affe248589ff0b3af94f95d75d6c.bindPopup(popup_3bcb0b0fbefb2fb3df747561496af424)
+        ;
+
+        
+    
+    
+            var circle_marker_ecb134727a0a030dd89442fa0e78dd07 = L.circleMarker(
+                [13.819598182543421, 100.49430679432291],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_a1ea1eb12cfad8072b7939ac04efaba7);
+        
+    
+        var popup_0df1a88d4ec9975810da3e30eb48f875 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_3758f09e44daee0dd2cd2da514eb3ee7 = $(`<div id="html_3758f09e44daee0dd2cd2da514eb3ee7" style="width: 100.0%; height: 100.0%;">Predicted Price: 103706.51 Baht/sq.wah</div>`)[0];
+                popup_0df1a88d4ec9975810da3e30eb48f875.setContent(html_3758f09e44daee0dd2cd2da514eb3ee7);
+            
+        
+
+        circle_marker_ecb134727a0a030dd89442fa0e78dd07.bindPopup(popup_0df1a88d4ec9975810da3e30eb48f875)
+        ;
+
+        
+    
+    
+            var circle_marker_ac1d42a449edd351d40de578836d7451 = L.circleMarker(
+                [13.779597545259112, 100.55257120734942],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_a1ea1eb12cfad8072b7939ac04efaba7);
+        
+    
+        var popup_fe134180af07ad312a7f9131f2d45d3b = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_88a5c9f061d9e197f97508e7d4002fb4 = $(`<div id="html_88a5c9f061d9e197f97508e7d4002fb4" style="width: 100.0%; height: 100.0%;">Predicted Price: 100613.63 Baht/sq.wah</div>`)[0];
+                popup_fe134180af07ad312a7f9131f2d45d3b.setContent(html_88a5c9f061d9e197f97508e7d4002fb4);
+            
+        
+
+        circle_marker_ac1d42a449edd351d40de578836d7451.bindPopup(popup_fe134180af07ad312a7f9131f2d45d3b)
+        ;
+
+        
+    
+    
+            var circle_marker_f954541bd5548613f48cfa367748fb94 = L.circleMarker(
+                [13.646805592132731, 100.67226994217783],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_a1ea1eb12cfad8072b7939ac04efaba7);
+        
+    
+        var popup_465737c572b7835ed07435f4009aac72 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_3ddcd92cde3c61189cf5dca407c316c0 = $(`<div id="html_3ddcd92cde3c61189cf5dca407c316c0" style="width: 100.0%; height: 100.0%;">Predicted Price: 87282.42 Baht/sq.wah</div>`)[0];
+                popup_465737c572b7835ed07435f4009aac72.setContent(html_3ddcd92cde3c61189cf5dca407c316c0);
+            
+        
+
+        circle_marker_f954541bd5548613f48cfa367748fb94.bindPopup(popup_465737c572b7835ed07435f4009aac72)
+        ;
+
+        
+    
+    
+            var circle_marker_5a0dbe96696e09733de17873df459791 = L.circleMarker(
+                [13.646798356100861, 100.47478766874467],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_a1ea1eb12cfad8072b7939ac04efaba7);
+        
+    
+        var popup_2a4b071c2692a5bd2390c2776e15982a = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_5e3b20704766657642bc4fde7abcdc30 = $(`<div id="html_5e3b20704766657642bc4fde7abcdc30" style="width: 100.0%; height: 100.0%;">Predicted Price: 90620.17 Baht/sq.wah</div>`)[0];
+                popup_2a4b071c2692a5bd2390c2776e15982a.setContent(html_5e3b20704766657642bc4fde7abcdc30);
+            
+        
+
+        circle_marker_5a0dbe96696e09733de17873df459791.bindPopup(popup_2a4b071c2692a5bd2390c2776e15982a)
+        ;
+
+        
+    
+    
+            var circle_marker_b0dc84311e83fde082ed44e26718ac65 = L.circleMarker(
+                [13.61742508365046, 100.5231148769107],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_a1ea1eb12cfad8072b7939ac04efaba7);
+        
+    
+        var popup_5f2b8748388a2d571e5662ca9868bf12 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_dd8a0943317e88c1d53cb64d11f7c6b7 = $(`<div id="html_dd8a0943317e88c1d53cb64d11f7c6b7" style="width: 100.0%; height: 100.0%;">Predicted Price: 83545.41 Baht/sq.wah</div>`)[0];
+                popup_5f2b8748388a2d571e5662ca9868bf12.setContent(html_dd8a0943317e88c1d53cb64d11f7c6b7);
+            
+        
+
+        circle_marker_b0dc84311e83fde082ed44e26718ac65.bindPopup(popup_5f2b8748388a2d571e5662ca9868bf12)
+        ;
+
+        
+    
+    
+            var circle_marker_5a0204f013c20f7e5077d5cfc87947ea = L.circleMarker(
+                [13.859852843732481, 100.62666534156291],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_a1ea1eb12cfad8072b7939ac04efaba7);
+        
+    
+        var popup_05df268bdbd47c5cb380e9fe3a7b7aa4 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_691856e4c551e217ec8311a7d34cdb5b = $(`<div id="html_691856e4c551e217ec8311a7d34cdb5b" style="width: 100.0%; height: 100.0%;">Predicted Price: 90582.57 Baht/sq.wah</div>`)[0];
+                popup_05df268bdbd47c5cb380e9fe3a7b7aa4.setContent(html_691856e4c551e217ec8311a7d34cdb5b);
+            
+        
+
+        circle_marker_5a0204f013c20f7e5077d5cfc87947ea.bindPopup(popup_05df268bdbd47c5cb380e9fe3a7b7aa4)
+        ;
+
+        
+    
+    
+            var circle_marker_310a08d6a2275572b6e390288ca770f1 = L.circleMarker(
+                [13.780334503522962, 100.4686394496475],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_a1ea1eb12cfad8072b7939ac04efaba7);
+        
+    
+        var popup_1168ae48115a45f5f18347a2ced668db = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_ac186e8d78576a47e3edc021cbdf3475 = $(`<div id="html_ac186e8d78576a47e3edc021cbdf3475" style="width: 100.0%; height: 100.0%;">Predicted Price: 88027.24 Baht/sq.wah</div>`)[0];
+                popup_1168ae48115a45f5f18347a2ced668db.setContent(html_ac186e8d78576a47e3edc021cbdf3475);
+            
+        
+
+        circle_marker_310a08d6a2275572b6e390288ca770f1.bindPopup(popup_1168ae48115a45f5f18347a2ced668db)
+        ;
+
+        
+    
+    
+            var circle_marker_dfb0ffd4d68abd68129e0942ff905067 = L.circleMarker(
+                [13.812421773338814, 100.42309397294865],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_a1ea1eb12cfad8072b7939ac04efaba7);
+        
+    
+        var popup_639f4195b996633af73ddc034465d1bd = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_0bfa3a06aa08c9266e8aefcfb048bd2e = $(`<div id="html_0bfa3a06aa08c9266e8aefcfb048bd2e" style="width: 100.0%; height: 100.0%;">Predicted Price: 89103.09 Baht/sq.wah</div>`)[0];
+                popup_639f4195b996633af73ddc034465d1bd.setContent(html_0bfa3a06aa08c9266e8aefcfb048bd2e);
+            
+        
+
+        circle_marker_dfb0ffd4d68abd68129e0942ff905067.bindPopup(popup_639f4195b996633af73ddc034465d1bd)
+        ;
+
+        
+    
+    
+            var circle_marker_1e8a4e65a3985d6234e34237bcb43ec7 = L.circleMarker(
+                [13.60617534828874, 100.48692543587414],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_a1ea1eb12cfad8072b7939ac04efaba7);
+        
+    
+        var popup_8b512fea9814a250f92e4c69b0120075 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_48648fa72ffab8ef84b508cc320405b6 = $(`<div id="html_48648fa72ffab8ef84b508cc320405b6" style="width: 100.0%; height: 100.0%;">Predicted Price: 88828.08 Baht/sq.wah</div>`)[0];
+                popup_8b512fea9814a250f92e4c69b0120075.setContent(html_48648fa72ffab8ef84b508cc320405b6);
+            
+        
+
+        circle_marker_1e8a4e65a3985d6234e34237bcb43ec7.bindPopup(popup_8b512fea9814a250f92e4c69b0120075)
+        ;
+
+        
+    
+    
+            var circle_marker_1df7be4b1a0f506030f4f30f1a17c37e = L.circleMarker(
+                [13.890972955648598, 100.4483663861762],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_a1ea1eb12cfad8072b7939ac04efaba7);
+        
+    
+        var popup_324d89d1ce66aec0a991db13454ce8dc = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_730b4b9e608f919cfecdc135f5a45239 = $(`<div id="html_730b4b9e608f919cfecdc135f5a45239" style="width: 100.0%; height: 100.0%;">Predicted Price: 87895.89 Baht/sq.wah</div>`)[0];
+                popup_324d89d1ce66aec0a991db13454ce8dc.setContent(html_730b4b9e608f919cfecdc135f5a45239);
+            
+        
+
+        circle_marker_1df7be4b1a0f506030f4f30f1a17c37e.bindPopup(popup_324d89d1ce66aec0a991db13454ce8dc)
+        ;
+
+        
+    
+    
+            var circle_marker_a05373714409f4e30b4266464725b721 = L.circleMarker(
+                [13.849732792240127, 100.67890929570278],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_a1ea1eb12cfad8072b7939ac04efaba7);
+        
+    
+        var popup_d9c59eaaa3b8024c27bc0969ffba4121 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_ce7b4ed74b731183448d8e2661387089 = $(`<div id="html_ce7b4ed74b731183448d8e2661387089" style="width: 100.0%; height: 100.0%;">Predicted Price: 88448.29 Baht/sq.wah</div>`)[0];
+                popup_d9c59eaaa3b8024c27bc0969ffba4121.setContent(html_ce7b4ed74b731183448d8e2661387089);
+            
+        
+
+        circle_marker_a05373714409f4e30b4266464725b721.bindPopup(popup_d9c59eaaa3b8024c27bc0969ffba4121)
+        ;
+
+        
+    
+    
+            var circle_marker_1e6842faaa249a50e911a565334acd61 = L.circleMarker(
+                [13.663701733203483, 100.64243611386932],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_a1ea1eb12cfad8072b7939ac04efaba7);
+        
+    
+        var popup_a6166ed2e1a712a35b3a9a1e21b73c4f = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_dba343e87f74f8e51f329cf773f427a0 = $(`<div id="html_dba343e87f74f8e51f329cf773f427a0" style="width: 100.0%; height: 100.0%;">Predicted Price: 85599.38 Baht/sq.wah</div>`)[0];
+                popup_a6166ed2e1a712a35b3a9a1e21b73c4f.setContent(html_dba343e87f74f8e51f329cf773f427a0);
+            
+        
+
+        circle_marker_1e6842faaa249a50e911a565334acd61.bindPopup(popup_a6166ed2e1a712a35b3a9a1e21b73c4f)
+        ;
+
+        
+    
+    
+            var circle_marker_f3a6c2586c1bab25cc21b6df3312e966 = L.circleMarker(
+                [13.65454749016213, 100.59002112695313],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_a1ea1eb12cfad8072b7939ac04efaba7);
+        
+    
+        var popup_81e6a49535d56f07d2b8f2bbc1002d30 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_92d2bb25e2e9eb9393d3978839e402b5 = $(`<div id="html_92d2bb25e2e9eb9393d3978839e402b5" style="width: 100.0%; height: 100.0%;">Predicted Price: 86692.88 Baht/sq.wah</div>`)[0];
+                popup_81e6a49535d56f07d2b8f2bbc1002d30.setContent(html_92d2bb25e2e9eb9393d3978839e402b5);
+            
+        
+
+        circle_marker_f3a6c2586c1bab25cc21b6df3312e966.bindPopup(popup_81e6a49535d56f07d2b8f2bbc1002d30)
+        ;
+
+        
+    
+    
+            var circle_marker_dc58ef789b368da8ae6fb100be6b0ba4 = L.circleMarker(
+                [13.65502135295603, 100.66143817705633],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_a1ea1eb12cfad8072b7939ac04efaba7);
+        
+    
+        var popup_7523f3a416517ccfe7f54917dfad9c75 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_b8d87139dd5a88e69310112a121fddbd = $(`<div id="html_b8d87139dd5a88e69310112a121fddbd" style="width: 100.0%; height: 100.0%;">Predicted Price: 78885.12 Baht/sq.wah</div>`)[0];
+                popup_7523f3a416517ccfe7f54917dfad9c75.setContent(html_b8d87139dd5a88e69310112a121fddbd);
+            
+        
+
+        circle_marker_dc58ef789b368da8ae6fb100be6b0ba4.bindPopup(popup_7523f3a416517ccfe7f54917dfad9c75)
+        ;
+
+        
+    
+    
+            var circle_marker_646441e55218ef987ea9351b0ae0edf3 = L.circleMarker(
+                [13.69127267288786, 100.64110162306974],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_a1ea1eb12cfad8072b7939ac04efaba7);
+        
+    
+        var popup_346cc16730f0174fd4fedb24e2119ca2 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_bf4f259ab18a6aa237a116cb7e85de1d = $(`<div id="html_bf4f259ab18a6aa237a116cb7e85de1d" style="width: 100.0%; height: 100.0%;">Predicted Price: 99432.12 Baht/sq.wah</div>`)[0];
+                popup_346cc16730f0174fd4fedb24e2119ca2.setContent(html_bf4f259ab18a6aa237a116cb7e85de1d);
+            
+        
+
+        circle_marker_646441e55218ef987ea9351b0ae0edf3.bindPopup(popup_346cc16730f0174fd4fedb24e2119ca2)
+        ;
+
+        
+    
+    
+            var circle_marker_a2adbaef8af84debe03fdee39d671e54 = L.circleMarker(
+                [13.757426929489672, 100.45597101766582],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_a1ea1eb12cfad8072b7939ac04efaba7);
+        
+    
+        var popup_977c5a5dd13242024c91b43b631e07f5 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_dcf2b2d8e6e1fb04bfc684e3912bff26 = $(`<div id="html_dcf2b2d8e6e1fb04bfc684e3912bff26" style="width: 100.0%; height: 100.0%;">Predicted Price: 98659.16 Baht/sq.wah</div>`)[0];
+                popup_977c5a5dd13242024c91b43b631e07f5.setContent(html_dcf2b2d8e6e1fb04bfc684e3912bff26);
+            
+        
+
+        circle_marker_a2adbaef8af84debe03fdee39d671e54.bindPopup(popup_977c5a5dd13242024c91b43b631e07f5)
+        ;
+
+        
+    
+    
+            var circle_marker_3655b4746283b29df5e5e1234001dc95 = L.circleMarker(
+                [13.729583505592634, 100.667767699547],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_a1ea1eb12cfad8072b7939ac04efaba7);
+        
+    
+        var popup_d0f80c254af37632109ee13ebd6db283 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_c95e9721ad55801735821add50d17eab = $(`<div id="html_c95e9721ad55801735821add50d17eab" style="width: 100.0%; height: 100.0%;">Predicted Price: 90171.56 Baht/sq.wah</div>`)[0];
+                popup_d0f80c254af37632109ee13ebd6db283.setContent(html_c95e9721ad55801735821add50d17eab);
+            
+        
+
+        circle_marker_3655b4746283b29df5e5e1234001dc95.bindPopup(popup_d0f80c254af37632109ee13ebd6db283)
+        ;
+
+        
+    
+    
+            var circle_marker_d030e2e0cddf057ef2b0d7a92a145c96 = L.circleMarker(
+                [13.687368742059412, 100.5618026725747],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_a1ea1eb12cfad8072b7939ac04efaba7);
+        
+    
+        var popup_263a669f668b788f2df52fa2d07c54ad = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_150f15d316d7894f6621f1d4b763b440 = $(`<div id="html_150f15d316d7894f6621f1d4b763b440" style="width: 100.0%; height: 100.0%;">Predicted Price: 101337.62 Baht/sq.wah</div>`)[0];
+                popup_263a669f668b788f2df52fa2d07c54ad.setContent(html_150f15d316d7894f6621f1d4b763b440);
+            
+        
+
+        circle_marker_d030e2e0cddf057ef2b0d7a92a145c96.bindPopup(popup_263a669f668b788f2df52fa2d07c54ad)
+        ;
+
+        
+    
+    
+            var circle_marker_24920e347fe95b09828de5079ac13c12 = L.circleMarker(
+                [13.783555868416714, 100.64223204654922],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_a1ea1eb12cfad8072b7939ac04efaba7);
+        
+    
+        var popup_f3ab32701e91a0e726d541e21d3c3d43 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_cd91c439d680a108106ad0960e330c55 = $(`<div id="html_cd91c439d680a108106ad0960e330c55" style="width: 100.0%; height: 100.0%;">Predicted Price: 99390.64 Baht/sq.wah</div>`)[0];
+                popup_f3ab32701e91a0e726d541e21d3c3d43.setContent(html_cd91c439d680a108106ad0960e330c55);
+            
+        
+
+        circle_marker_24920e347fe95b09828de5079ac13c12.bindPopup(popup_f3ab32701e91a0e726d541e21d3c3d43)
+        ;
+
+        
+    
+    
+            var circle_marker_6b7ec9d4288ff30c9477337280182f8e = L.circleMarker(
+                [13.641848158195613, 100.66882738997705],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_a1ea1eb12cfad8072b7939ac04efaba7);
+        
+    
+        var popup_021f64d3a9b3ab91fc9051e849aeb697 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_95299bc379d4a30c863e1e7bbf1a88bd = $(`<div id="html_95299bc379d4a30c863e1e7bbf1a88bd" style="width: 100.0%; height: 100.0%;">Predicted Price: 90207.89 Baht/sq.wah</div>`)[0];
+                popup_021f64d3a9b3ab91fc9051e849aeb697.setContent(html_95299bc379d4a30c863e1e7bbf1a88bd);
+            
+        
+
+        circle_marker_6b7ec9d4288ff30c9477337280182f8e.bindPopup(popup_021f64d3a9b3ab91fc9051e849aeb697)
+        ;
+
+        
+    
+    
+            var circle_marker_4f6aba2087a13e8aeb30d5b8135cd115 = L.circleMarker(
+                [13.687643394560565, 100.49540104249157],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_a1ea1eb12cfad8072b7939ac04efaba7);
+        
+    
+        var popup_f0d12034a2b222ce8a62f15f3f686a92 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_6648898cd839541ab297eccc6389cf3f = $(`<div id="html_6648898cd839541ab297eccc6389cf3f" style="width: 100.0%; height: 100.0%;">Predicted Price: 94204.00 Baht/sq.wah</div>`)[0];
+                popup_f0d12034a2b222ce8a62f15f3f686a92.setContent(html_6648898cd839541ab297eccc6389cf3f);
+            
+        
+
+        circle_marker_4f6aba2087a13e8aeb30d5b8135cd115.bindPopup(popup_f0d12034a2b222ce8a62f15f3f686a92)
+        ;
+
+        
+    
+    
+            var circle_marker_be8efbb62427b6777bfa7172c7bfca90 = L.circleMarker(
+                [13.709908552988107, 100.4330155773583],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_a1ea1eb12cfad8072b7939ac04efaba7);
+        
+    
+        var popup_d91a6ebf3704fed7ca7c02781a5b56bd = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_037c155d9d3d94f9dc72bb017c27a6aa = $(`<div id="html_037c155d9d3d94f9dc72bb017c27a6aa" style="width: 100.0%; height: 100.0%;">Predicted Price: 89009.13 Baht/sq.wah</div>`)[0];
+                popup_d91a6ebf3704fed7ca7c02781a5b56bd.setContent(html_037c155d9d3d94f9dc72bb017c27a6aa);
+            
+        
+
+        circle_marker_be8efbb62427b6777bfa7172c7bfca90.bindPopup(popup_d91a6ebf3704fed7ca7c02781a5b56bd)
+        ;
+
+        
+    
+    
+            var circle_marker_a6d57525b6d40f7d7332d5c6007ea167 = L.circleMarker(
+                [13.736820995265111, 100.46838054876258],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_a1ea1eb12cfad8072b7939ac04efaba7);
+        
+    
+        var popup_c3d01215163d79eace6a19bfdfe018ff = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_8ae0065f5fb4a2eac2ae62f39ecd054a = $(`<div id="html_8ae0065f5fb4a2eac2ae62f39ecd054a" style="width: 100.0%; height: 100.0%;">Predicted Price: 98471.61 Baht/sq.wah</div>`)[0];
+                popup_c3d01215163d79eace6a19bfdfe018ff.setContent(html_8ae0065f5fb4a2eac2ae62f39ecd054a);
+            
+        
+
+        circle_marker_a6d57525b6d40f7d7332d5c6007ea167.bindPopup(popup_c3d01215163d79eace6a19bfdfe018ff)
+        ;
+
+        
+    
+    
+            var circle_marker_7818c1b7b878633d345304b0674f5c2d = L.circleMarker(
+                [13.835552788417905, 100.52813233658789],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_a1ea1eb12cfad8072b7939ac04efaba7);
+        
+    
+        var popup_e9aa9387f34cb15c10fccb8f603241fe = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_6c1a5e247f2e09f85f81163c2b56d690 = $(`<div id="html_6c1a5e247f2e09f85f81163c2b56d690" style="width: 100.0%; height: 100.0%;">Predicted Price: 88291.82 Baht/sq.wah</div>`)[0];
+                popup_e9aa9387f34cb15c10fccb8f603241fe.setContent(html_6c1a5e247f2e09f85f81163c2b56d690);
+            
+        
+
+        circle_marker_7818c1b7b878633d345304b0674f5c2d.bindPopup(popup_e9aa9387f34cb15c10fccb8f603241fe)
+        ;
+
+        
+    
+    
+            var circle_marker_676f02f1a7ca3356f80a1d482d6028ee = L.circleMarker(
+                [13.659902134647508, 100.64540442977675],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_a1ea1eb12cfad8072b7939ac04efaba7);
+        
+    
+        var popup_8a73e35769971702d99b06add0367973 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_b45d9a6f48f88612311c1f77a0d33836 = $(`<div id="html_b45d9a6f48f88612311c1f77a0d33836" style="width: 100.0%; height: 100.0%;">Predicted Price: 90026.90 Baht/sq.wah</div>`)[0];
+                popup_8a73e35769971702d99b06add0367973.setContent(html_b45d9a6f48f88612311c1f77a0d33836);
+            
+        
+
+        circle_marker_676f02f1a7ca3356f80a1d482d6028ee.bindPopup(popup_8a73e35769971702d99b06add0367973)
+        ;
+
+        
+    
+    
+            var circle_marker_09e823a8e68a04b2a58bb9369916af17 = L.circleMarker(
+                [13.754270331524083, 100.6582191749769],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_a1ea1eb12cfad8072b7939ac04efaba7);
+        
+    
+        var popup_1e2ba21f8dc02f4db15d1129274a6595 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_11c12f13959890240f20d450e4d5aeb1 = $(`<div id="html_11c12f13959890240f20d450e4d5aeb1" style="width: 100.0%; height: 100.0%;">Predicted Price: 91980.02 Baht/sq.wah</div>`)[0];
+                popup_1e2ba21f8dc02f4db15d1129274a6595.setContent(html_11c12f13959890240f20d450e4d5aeb1);
+            
+        
+
+        circle_marker_09e823a8e68a04b2a58bb9369916af17.bindPopup(popup_1e2ba21f8dc02f4db15d1129274a6595)
+        ;
+
+        
+    
+    
+            var circle_marker_b2d078fadf245d2fa297c3daba3b6f23 = L.circleMarker(
+                [13.777724370658612, 100.40208563915937],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_a1ea1eb12cfad8072b7939ac04efaba7);
+        
+    
+        var popup_850e83dfb7e800b5eb18dfd217fec5b2 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_8916e553491a22109694d337d8e1915a = $(`<div id="html_8916e553491a22109694d337d8e1915a" style="width: 100.0%; height: 100.0%;">Predicted Price: 84244.15 Baht/sq.wah</div>`)[0];
+                popup_850e83dfb7e800b5eb18dfd217fec5b2.setContent(html_8916e553491a22109694d337d8e1915a);
+            
+        
+
+        circle_marker_b2d078fadf245d2fa297c3daba3b6f23.bindPopup(popup_850e83dfb7e800b5eb18dfd217fec5b2)
+        ;
+
+        
+    
+    
+            var circle_marker_d03f88a8f0395a830e02a3e7786fe03c = L.circleMarker(
+                [13.613935123815999, 100.55322419077328],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_a1ea1eb12cfad8072b7939ac04efaba7);
+        
+    
+        var popup_9103d3519eb311ec8d6088072a5ed3bc = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_4bda3d324eaef41c5b111025b8242c0d = $(`<div id="html_4bda3d324eaef41c5b111025b8242c0d" style="width: 100.0%; height: 100.0%;">Predicted Price: 90103.76 Baht/sq.wah</div>`)[0];
+                popup_9103d3519eb311ec8d6088072a5ed3bc.setContent(html_4bda3d324eaef41c5b111025b8242c0d);
+            
+        
+
+        circle_marker_d03f88a8f0395a830e02a3e7786fe03c.bindPopup(popup_9103d3519eb311ec8d6088072a5ed3bc)
+        ;
+
+        
+    
+    
+            var circle_marker_da4014b91eb74d4214f068d59a5a0994 = L.circleMarker(
+                [13.782263455570432, 100.52522330094463],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_a1ea1eb12cfad8072b7939ac04efaba7);
+        
+    
+        var popup_eb0eb64b641b02b9eef01bba10d544cb = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_e9f5e247378c5ec7d825359878163c15 = $(`<div id="html_e9f5e247378c5ec7d825359878163c15" style="width: 100.0%; height: 100.0%;">Predicted Price: 96584.10 Baht/sq.wah</div>`)[0];
+                popup_eb0eb64b641b02b9eef01bba10d544cb.setContent(html_e9f5e247378c5ec7d825359878163c15);
+            
+        
+
+        circle_marker_da4014b91eb74d4214f068d59a5a0994.bindPopup(popup_eb0eb64b641b02b9eef01bba10d544cb)
+        ;
+
+        
+    
+    
+            var circle_marker_9790199e46f16f438e26d06adb080b7c = L.circleMarker(
+                [13.651157237106187, 100.46663234314123],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_a1ea1eb12cfad8072b7939ac04efaba7);
+        
+    
+        var popup_0519e0a57f00e69dca78964a2d72fdce = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_142779cd1fd7c4a77b61d28128c59e84 = $(`<div id="html_142779cd1fd7c4a77b61d28128c59e84" style="width: 100.0%; height: 100.0%;">Predicted Price: 95147.18 Baht/sq.wah</div>`)[0];
+                popup_0519e0a57f00e69dca78964a2d72fdce.setContent(html_142779cd1fd7c4a77b61d28128c59e84);
+            
+        
+
+        circle_marker_9790199e46f16f438e26d06adb080b7c.bindPopup(popup_0519e0a57f00e69dca78964a2d72fdce)
+        ;
+
+        
+    
+    
+            var circle_marker_153c4405a9df7c0a64c73aaef9fae0d2 = L.circleMarker(
+                [13.619515477895584, 100.43595961020011],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_a1ea1eb12cfad8072b7939ac04efaba7);
+        
+    
+        var popup_4050e8c500d1193fe1c585de4353daac = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_44d381db9a2599111d996248ecea062d = $(`<div id="html_44d381db9a2599111d996248ecea062d" style="width: 100.0%; height: 100.0%;">Predicted Price: 85527.75 Baht/sq.wah</div>`)[0];
+                popup_4050e8c500d1193fe1c585de4353daac.setContent(html_44d381db9a2599111d996248ecea062d);
+            
+        
+
+        circle_marker_153c4405a9df7c0a64c73aaef9fae0d2.bindPopup(popup_4050e8c500d1193fe1c585de4353daac)
+        ;
+
+        
+    
+    
+            var circle_marker_26b4f3884c133f2e7b26751c890ca240 = L.circleMarker(
+                [13.884665661176001, 100.5012845514211],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_a1ea1eb12cfad8072b7939ac04efaba7);
+        
+    
+        var popup_37bf04486184ceed97fc36c078fa31d4 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_292650fa3f425c00b6ef8514d8748be6 = $(`<div id="html_292650fa3f425c00b6ef8514d8748be6" style="width: 100.0%; height: 100.0%;">Predicted Price: 88478.45 Baht/sq.wah</div>`)[0];
+                popup_37bf04486184ceed97fc36c078fa31d4.setContent(html_292650fa3f425c00b6ef8514d8748be6);
+            
+        
+
+        circle_marker_26b4f3884c133f2e7b26751c890ca240.bindPopup(popup_37bf04486184ceed97fc36c078fa31d4)
+        ;
+
+        
+    
+    
+            var circle_marker_5456f9249b63efe4f17f32c75dc10564 = L.circleMarker(
+                [13.889689609922367, 100.68287291117376],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_a1ea1eb12cfad8072b7939ac04efaba7);
+        
+    
+        var popup_642fdd5d4259b4050b7608e091c0a2b5 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_a9875db129d606660740d420ecd638b7 = $(`<div id="html_a9875db129d606660740d420ecd638b7" style="width: 100.0%; height: 100.0%;">Predicted Price: 90260.58 Baht/sq.wah</div>`)[0];
+                popup_642fdd5d4259b4050b7608e091c0a2b5.setContent(html_a9875db129d606660740d420ecd638b7);
+            
+        
+
+        circle_marker_5456f9249b63efe4f17f32c75dc10564.bindPopup(popup_642fdd5d4259b4050b7608e091c0a2b5)
+        ;
+
+        
+    
+    
+            var circle_marker_1552858ccfe32bf7b6d4b11a8ebdea2c = L.circleMarker(
+                [13.84251920443494, 100.49696087960623],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_a1ea1eb12cfad8072b7939ac04efaba7);
+        
+    
+        var popup_fc7153d5165eacede6b6584b51909908 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_73dccd58b26f3ddde1a336885a08e832 = $(`<div id="html_73dccd58b26f3ddde1a336885a08e832" style="width: 100.0%; height: 100.0%;">Predicted Price: 79467.59 Baht/sq.wah</div>`)[0];
+                popup_fc7153d5165eacede6b6584b51909908.setContent(html_73dccd58b26f3ddde1a336885a08e832);
+            
+        
+
+        circle_marker_1552858ccfe32bf7b6d4b11a8ebdea2c.bindPopup(popup_fc7153d5165eacede6b6584b51909908)
+        ;
+
+        
+    
+    
+            var circle_marker_f0919c15418ab59706f35bba1db8c393 = L.circleMarker(
+                [13.691384130752011, 100.55563718652301],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_a1ea1eb12cfad8072b7939ac04efaba7);
+        
+    
+        var popup_5801c54d8807b3d5aa1e0eaead471bf5 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_9b57f32b4d513d1eed8db0c20ad30481 = $(`<div id="html_9b57f32b4d513d1eed8db0c20ad30481" style="width: 100.0%; height: 100.0%;">Predicted Price: 92465.44 Baht/sq.wah</div>`)[0];
+                popup_5801c54d8807b3d5aa1e0eaead471bf5.setContent(html_9b57f32b4d513d1eed8db0c20ad30481);
+            
+        
+
+        circle_marker_f0919c15418ab59706f35bba1db8c393.bindPopup(popup_5801c54d8807b3d5aa1e0eaead471bf5)
+        ;
+
+        
+    
+    
+            var circle_marker_e39d62174a812b6b6be390276e35a8fb = L.circleMarker(
+                [13.629301634201916, 100.61090568766856],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_a1ea1eb12cfad8072b7939ac04efaba7);
+        
+    
+        var popup_563989ab6468b56a881b64a9160d8320 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_8c16ce2a3215fbee18f2ccaf4e574044 = $(`<div id="html_8c16ce2a3215fbee18f2ccaf4e574044" style="width: 100.0%; height: 100.0%;">Predicted Price: 90545.20 Baht/sq.wah</div>`)[0];
+                popup_563989ab6468b56a881b64a9160d8320.setContent(html_8c16ce2a3215fbee18f2ccaf4e574044);
+            
+        
+
+        circle_marker_e39d62174a812b6b6be390276e35a8fb.bindPopup(popup_563989ab6468b56a881b64a9160d8320)
+        ;
+
+        
+    
+    
+            var circle_marker_28f74d2c0eaa68a8b7a0c64523dd6555 = L.circleMarker(
+                [13.805269907953647, 100.50908888071379],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_a1ea1eb12cfad8072b7939ac04efaba7);
+        
+    
+        var popup_76fa05f7edeec1f0a1549df7eea39ee0 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_f2a7b51339e3281b47be36c8972820ce = $(`<div id="html_f2a7b51339e3281b47be36c8972820ce" style="width: 100.0%; height: 100.0%;">Predicted Price: 104187.03 Baht/sq.wah</div>`)[0];
+                popup_76fa05f7edeec1f0a1549df7eea39ee0.setContent(html_f2a7b51339e3281b47be36c8972820ce);
+            
+        
+
+        circle_marker_28f74d2c0eaa68a8b7a0c64523dd6555.bindPopup(popup_76fa05f7edeec1f0a1549df7eea39ee0)
+        ;
+
+        
+    
+    
+            var circle_marker_38330f6480ce96a64f8734c4db5aff31 = L.circleMarker(
+                [13.73204574812188, 100.69153462481628],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_a1ea1eb12cfad8072b7939ac04efaba7);
+        
+    
+        var popup_5ed239af98b6f2f3130e7b28a1ec30ac = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_f812e87b52df5ede11f7e0e7cdbd3c3e = $(`<div id="html_f812e87b52df5ede11f7e0e7cdbd3c3e" style="width: 100.0%; height: 100.0%;">Predicted Price: 80891.74 Baht/sq.wah</div>`)[0];
+                popup_5ed239af98b6f2f3130e7b28a1ec30ac.setContent(html_f812e87b52df5ede11f7e0e7cdbd3c3e);
+            
+        
+
+        circle_marker_38330f6480ce96a64f8734c4db5aff31.bindPopup(popup_5ed239af98b6f2f3130e7b28a1ec30ac)
+        ;
+
+        
+    
+    
+            var circle_marker_ca084cb393595518e8f2b0a1e1663061 = L.circleMarker(
+                [13.636611470453433, 100.68873418848264],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_a1ea1eb12cfad8072b7939ac04efaba7);
+        
+    
+        var popup_dd1dd239fbe8769af018e2c17fb6b8ca = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_1ab9d61cb515213766478341614fc9c2 = $(`<div id="html_1ab9d61cb515213766478341614fc9c2" style="width: 100.0%; height: 100.0%;">Predicted Price: 91109.41 Baht/sq.wah</div>`)[0];
+                popup_dd1dd239fbe8769af018e2c17fb6b8ca.setContent(html_1ab9d61cb515213766478341614fc9c2);
+            
+        
+
+        circle_marker_ca084cb393595518e8f2b0a1e1663061.bindPopup(popup_dd1dd239fbe8769af018e2c17fb6b8ca)
+        ;
+
+        
+    
+    
+            var circle_marker_29b56733c5b2d2629c333fda621de55e = L.circleMarker(
+                [13.748553073033381, 100.47553468874762],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_a1ea1eb12cfad8072b7939ac04efaba7);
+        
+    
+        var popup_1742fe85f8221d6db9b151e991c91d5f = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_f1cfc3376a3881f5bdae023dfdcc3a92 = $(`<div id="html_f1cfc3376a3881f5bdae023dfdcc3a92" style="width: 100.0%; height: 100.0%;">Predicted Price: 96500.45 Baht/sq.wah</div>`)[0];
+                popup_1742fe85f8221d6db9b151e991c91d5f.setContent(html_f1cfc3376a3881f5bdae023dfdcc3a92);
+            
+        
+
+        circle_marker_29b56733c5b2d2629c333fda621de55e.bindPopup(popup_1742fe85f8221d6db9b151e991c91d5f)
+        ;
+
+        
+    
+    
+            var circle_marker_9c1e51ffc8705bdd9b8e520c031db432 = L.circleMarker(
+                [13.610316556334565, 100.54917455176772],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_a1ea1eb12cfad8072b7939ac04efaba7);
+        
+    
+        var popup_f9711536d314f588218df076d0adab45 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_ffe4c42c4fb95d33f9729b211771b248 = $(`<div id="html_ffe4c42c4fb95d33f9729b211771b248" style="width: 100.0%; height: 100.0%;">Predicted Price: 81482.91 Baht/sq.wah</div>`)[0];
+                popup_f9711536d314f588218df076d0adab45.setContent(html_ffe4c42c4fb95d33f9729b211771b248);
+            
+        
+
+        circle_marker_9c1e51ffc8705bdd9b8e520c031db432.bindPopup(popup_f9711536d314f588218df076d0adab45)
+        ;
+
+        
+    
+    
+            var circle_marker_2ee50fe2b0856ad81f594e83aa77c72b = L.circleMarker(
+                [13.872796120623635, 100.49026349294503],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_a1ea1eb12cfad8072b7939ac04efaba7);
+        
+    
+        var popup_372e72fdd8c1287cf4cf31a901ac1d36 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_6c791c0bfa2ba18641f260c365018efd = $(`<div id="html_6c791c0bfa2ba18641f260c365018efd" style="width: 100.0%; height: 100.0%;">Predicted Price: 90763.25 Baht/sq.wah</div>`)[0];
+                popup_372e72fdd8c1287cf4cf31a901ac1d36.setContent(html_6c791c0bfa2ba18641f260c365018efd);
+            
+        
+
+        circle_marker_2ee50fe2b0856ad81f594e83aa77c72b.bindPopup(popup_372e72fdd8c1287cf4cf31a901ac1d36)
+        ;
+
+        
+    
+    
+            var circle_marker_e9f9b4a848c3fb0fbcb8d3c844fecced = L.circleMarker(
+                [13.677633994480004, 100.48545214831324],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_a1ea1eb12cfad8072b7939ac04efaba7);
+        
+    
+        var popup_7b8378cd7308d27af3e2fda18f0b78ed = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_47a3299d7fd6e550b225f2d1daa80331 = $(`<div id="html_47a3299d7fd6e550b225f2d1daa80331" style="width: 100.0%; height: 100.0%;">Predicted Price: 88521.45 Baht/sq.wah</div>`)[0];
+                popup_7b8378cd7308d27af3e2fda18f0b78ed.setContent(html_47a3299d7fd6e550b225f2d1daa80331);
+            
+        
+
+        circle_marker_e9f9b4a848c3fb0fbcb8d3c844fecced.bindPopup(popup_7b8378cd7308d27af3e2fda18f0b78ed)
+        ;
+
+        
+    
+    
+            var circle_marker_bd8be7b47ac57b947675efa81283e48c = L.circleMarker(
+                [13.798756685306195, 100.41106608420637],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_a1ea1eb12cfad8072b7939ac04efaba7);
+        
+    
+        var popup_e20f626ab4653cd1a0ae6c66e2aab430 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_e557467b38080f6a40c9361ade3ca5dc = $(`<div id="html_e557467b38080f6a40c9361ade3ca5dc" style="width: 100.0%; height: 100.0%;">Predicted Price: 85997.04 Baht/sq.wah</div>`)[0];
+                popup_e20f626ab4653cd1a0ae6c66e2aab430.setContent(html_e557467b38080f6a40c9361ade3ca5dc);
+            
+        
+
+        circle_marker_bd8be7b47ac57b947675efa81283e48c.bindPopup(popup_e20f626ab4653cd1a0ae6c66e2aab430)
+        ;
+
+        
+    
+    
+            var circle_marker_25c6f7c085a649af4bbf68bd34156074 = L.circleMarker(
+                [13.693513322826822, 100.58286930019398],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_a1ea1eb12cfad8072b7939ac04efaba7);
+        
+    
+        var popup_32276faaa2b5ed39dbd28c86bc11ffd8 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_e4be15f82ee54746d833577eb6f9cc18 = $(`<div id="html_e4be15f82ee54746d833577eb6f9cc18" style="width: 100.0%; height: 100.0%;">Predicted Price: 90818.44 Baht/sq.wah</div>`)[0];
+                popup_32276faaa2b5ed39dbd28c86bc11ffd8.setContent(html_e4be15f82ee54746d833577eb6f9cc18);
+            
+        
+
+        circle_marker_25c6f7c085a649af4bbf68bd34156074.bindPopup(popup_32276faaa2b5ed39dbd28c86bc11ffd8)
+        ;
+
+        
+    
+    
+            var circle_marker_7c6a5bca2ab488c8535388ee56789ba5 = L.circleMarker(
+                [13.756020406353343, 100.55080370696867],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_a1ea1eb12cfad8072b7939ac04efaba7);
+        
+    
+        var popup_e28666ca496fbe0898129b47143b33e1 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_188b3ff4912adb4c245451ef71999db1 = $(`<div id="html_188b3ff4912adb4c245451ef71999db1" style="width: 100.0%; height: 100.0%;">Predicted Price: 94570.66 Baht/sq.wah</div>`)[0];
+                popup_e28666ca496fbe0898129b47143b33e1.setContent(html_188b3ff4912adb4c245451ef71999db1);
+            
+        
+
+        circle_marker_7c6a5bca2ab488c8535388ee56789ba5.bindPopup(popup_e28666ca496fbe0898129b47143b33e1)
+        ;
+
+        
+    
+    
+            var circle_marker_15f60beeef12603174cb22ec602be5cd = L.circleMarker(
+                [13.764013083802984, 100.415443625375],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_a1ea1eb12cfad8072b7939ac04efaba7);
+        
+    
+        var popup_1338c1cfb1d3912bf2c8e29738e7fa79 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_4565f10a54f29ff817c2b44eba83b2b0 = $(`<div id="html_4565f10a54f29ff817c2b44eba83b2b0" style="width: 100.0%; height: 100.0%;">Predicted Price: 87583.06 Baht/sq.wah</div>`)[0];
+                popup_1338c1cfb1d3912bf2c8e29738e7fa79.setContent(html_4565f10a54f29ff817c2b44eba83b2b0);
+            
+        
+
+        circle_marker_15f60beeef12603174cb22ec602be5cd.bindPopup(popup_1338c1cfb1d3912bf2c8e29738e7fa79)
+        ;
+
+        
+    
+    
+            var circle_marker_9af05f8d0196333df0c37bcfbceb03ac = L.circleMarker(
+                [13.655456336657657, 100.48359393927099],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_a1ea1eb12cfad8072b7939ac04efaba7);
+        
+    
+        var popup_2e72c44939f75cb64d5a92f4231f4b75 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_1e3b472cc7d4f70659f399dd73e74f49 = $(`<div id="html_1e3b472cc7d4f70659f399dd73e74f49" style="width: 100.0%; height: 100.0%;">Predicted Price: 96826.53 Baht/sq.wah</div>`)[0];
+                popup_2e72c44939f75cb64d5a92f4231f4b75.setContent(html_1e3b472cc7d4f70659f399dd73e74f49);
+            
+        
+
+        circle_marker_9af05f8d0196333df0c37bcfbceb03ac.bindPopup(popup_2e72c44939f75cb64d5a92f4231f4b75)
+        ;
+
+        
+    
+    
+            var circle_marker_9d37f3f8908979c5570eea9241f21942 = L.circleMarker(
+                [13.890875388329368, 100.67247976579],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_a1ea1eb12cfad8072b7939ac04efaba7);
+        
+    
+        var popup_3f7623300e2d62d6f5e9bbe7bee5638f = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_21151b1cfcca27f2cc440b06e6324263 = $(`<div id="html_21151b1cfcca27f2cc440b06e6324263" style="width: 100.0%; height: 100.0%;">Predicted Price: 91762.01 Baht/sq.wah</div>`)[0];
+                popup_3f7623300e2d62d6f5e9bbe7bee5638f.setContent(html_21151b1cfcca27f2cc440b06e6324263);
+            
+        
+
+        circle_marker_9d37f3f8908979c5570eea9241f21942.bindPopup(popup_3f7623300e2d62d6f5e9bbe7bee5638f)
+        ;
+
+        
+    
+    
+            var circle_marker_f554fcd13ae882e6044691ced0383e44 = L.circleMarker(
+                [13.832539847008334, 100.47186856720009],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_a1ea1eb12cfad8072b7939ac04efaba7);
+        
+    
+        var popup_011fc9482e14cfe0beaa7c41563e1842 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_b3ccf203b007ffe53c67adbde82f5294 = $(`<div id="html_b3ccf203b007ffe53c67adbde82f5294" style="width: 100.0%; height: 100.0%;">Predicted Price: 80613.86 Baht/sq.wah</div>`)[0];
+                popup_011fc9482e14cfe0beaa7c41563e1842.setContent(html_b3ccf203b007ffe53c67adbde82f5294);
+            
+        
+
+        circle_marker_f554fcd13ae882e6044691ced0383e44.bindPopup(popup_011fc9482e14cfe0beaa7c41563e1842)
+        ;
+
+        
+    
+    
+            var circle_marker_4780baedfa1a7de0477cba104c96f371 = L.circleMarker(
+                [13.881849682469257, 100.44346846162738],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_a1ea1eb12cfad8072b7939ac04efaba7);
+        
+    
+        var popup_7dcb543fa6f8d77576bef0a1df5ba051 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_c0386dfbb7f63172103920fccc79f0b3 = $(`<div id="html_c0386dfbb7f63172103920fccc79f0b3" style="width: 100.0%; height: 100.0%;">Predicted Price: 95830.01 Baht/sq.wah</div>`)[0];
+                popup_7dcb543fa6f8d77576bef0a1df5ba051.setContent(html_c0386dfbb7f63172103920fccc79f0b3);
+            
+        
+
+        circle_marker_4780baedfa1a7de0477cba104c96f371.bindPopup(popup_7dcb543fa6f8d77576bef0a1df5ba051)
+        ;
+
+        
+    
+    
+            var circle_marker_8cac5c67ff3bd2807ef5185a5106442e = L.circleMarker(
+                [13.868448205128296, 100.54683582808327],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_a1ea1eb12cfad8072b7939ac04efaba7);
+        
+    
+        var popup_46498ea01e58c5426cd2a7a2672a1cfa = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_f881b618bd8d5408522aa0f26e22243e = $(`<div id="html_f881b618bd8d5408522aa0f26e22243e" style="width: 100.0%; height: 100.0%;">Predicted Price: 92532.49 Baht/sq.wah</div>`)[0];
+                popup_46498ea01e58c5426cd2a7a2672a1cfa.setContent(html_f881b618bd8d5408522aa0f26e22243e);
+            
+        
+
+        circle_marker_8cac5c67ff3bd2807ef5185a5106442e.bindPopup(popup_46498ea01e58c5426cd2a7a2672a1cfa)
+        ;
+
+        
+    
+    
+            var circle_marker_36378b387f0859cb2287d7cf5131c132 = L.circleMarker(
+                [13.779369993643325, 100.69569513623318],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_a1ea1eb12cfad8072b7939ac04efaba7);
+        
+    
+        var popup_a6493fec0ce2f6406c881db01318d135 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_4f98475bdca848a648472590678c4f69 = $(`<div id="html_4f98475bdca848a648472590678c4f69" style="width: 100.0%; height: 100.0%;">Predicted Price: 81550.34 Baht/sq.wah</div>`)[0];
+                popup_a6493fec0ce2f6406c881db01318d135.setContent(html_4f98475bdca848a648472590678c4f69);
+            
+        
+
+        circle_marker_36378b387f0859cb2287d7cf5131c132.bindPopup(popup_a6493fec0ce2f6406c881db01318d135)
+        ;
+
+        
+    
+    
+            var circle_marker_e7d3c7ec8f9be151abc01b77405a3710 = L.circleMarker(
+                [13.876562270506936, 100.47261658145345],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_a1ea1eb12cfad8072b7939ac04efaba7);
+        
+    
+        var popup_7c6e6b798378f31849b78e1e2ebfbf65 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_a4fad2f72ea570bf0ec5e7ae447ca9d2 = $(`<div id="html_a4fad2f72ea570bf0ec5e7ae447ca9d2" style="width: 100.0%; height: 100.0%;">Predicted Price: 90237.09 Baht/sq.wah</div>`)[0];
+                popup_7c6e6b798378f31849b78e1e2ebfbf65.setContent(html_a4fad2f72ea570bf0ec5e7ae447ca9d2);
+            
+        
+
+        circle_marker_e7d3c7ec8f9be151abc01b77405a3710.bindPopup(popup_7c6e6b798378f31849b78e1e2ebfbf65)
+        ;
+
+        
+    
+    
+            var circle_marker_9079a0228afec4a29da9586b6563aa38 = L.circleMarker(
+                [13.626547750615575, 100.60164066422176],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_a1ea1eb12cfad8072b7939ac04efaba7);
+        
+    
+        var popup_8364364c24a25691957d18594f9a0ea2 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_cdbcf6c2a9e5a437eefbecbcb2d86a3a = $(`<div id="html_cdbcf6c2a9e5a437eefbecbcb2d86a3a" style="width: 100.0%; height: 100.0%;">Predicted Price: 89069.90 Baht/sq.wah</div>`)[0];
+                popup_8364364c24a25691957d18594f9a0ea2.setContent(html_cdbcf6c2a9e5a437eefbecbcb2d86a3a);
+            
+        
+
+        circle_marker_9079a0228afec4a29da9586b6563aa38.bindPopup(popup_8364364c24a25691957d18594f9a0ea2)
+        ;
+
+        
+    
+    
+            var circle_marker_3ad62030383b288eddfdd3d686f0d47f = L.circleMarker(
+                [13.658794858725743, 100.62848588459862],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_a1ea1eb12cfad8072b7939ac04efaba7);
+        
+    
+        var popup_70a297de66e83f0b7250a6d336caed32 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_e9532f17d2b82afb22ba748ba5d999d6 = $(`<div id="html_e9532f17d2b82afb22ba748ba5d999d6" style="width: 100.0%; height: 100.0%;">Predicted Price: 84589.70 Baht/sq.wah</div>`)[0];
+                popup_70a297de66e83f0b7250a6d336caed32.setContent(html_e9532f17d2b82afb22ba748ba5d999d6);
+            
+        
+
+        circle_marker_3ad62030383b288eddfdd3d686f0d47f.bindPopup(popup_70a297de66e83f0b7250a6d336caed32)
+        ;
+
+        
+    
+    
+            var circle_marker_d6ec9381f6e44c81cd1009822e67ac3c = L.circleMarker(
+                [13.613568186673161, 100.47129126319773],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_a1ea1eb12cfad8072b7939ac04efaba7);
+        
+    
+        var popup_c96a3dcf2410c321cdd08643bd19cab7 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_392f6a3751021c507b1403989c5c7d77 = $(`<div id="html_392f6a3751021c507b1403989c5c7d77" style="width: 100.0%; height: 100.0%;">Predicted Price: 87431.02 Baht/sq.wah</div>`)[0];
+                popup_c96a3dcf2410c321cdd08643bd19cab7.setContent(html_392f6a3751021c507b1403989c5c7d77);
+            
+        
+
+        circle_marker_d6ec9381f6e44c81cd1009822e67ac3c.bindPopup(popup_c96a3dcf2410c321cdd08643bd19cab7)
+        ;
+
+        
+    
+    
+            var circle_marker_0275d6c40600114e54ae097f895d2931 = L.circleMarker(
+                [13.69759909922898, 100.61846490458356],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_a1ea1eb12cfad8072b7939ac04efaba7);
+        
+    
+        var popup_bea858f5cd0751d0bcd1cc903402424c = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_9a3d4c487484918ba47cd989bc1c0e5d = $(`<div id="html_9a3d4c487484918ba47cd989bc1c0e5d" style="width: 100.0%; height: 100.0%;">Predicted Price: 87680.90 Baht/sq.wah</div>`)[0];
+                popup_bea858f5cd0751d0bcd1cc903402424c.setContent(html_9a3d4c487484918ba47cd989bc1c0e5d);
+            
+        
+
+        circle_marker_0275d6c40600114e54ae097f895d2931.bindPopup(popup_bea858f5cd0751d0bcd1cc903402424c)
+        ;
+
+        
+    
+    
+            var circle_marker_51edb025a0e2be9c8d45b54ef364f300 = L.circleMarker(
+                [13.716603186906845, 100.51033493981578],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_a1ea1eb12cfad8072b7939ac04efaba7);
+        
+    
+        var popup_45354b0f8b751032c343a6e78158d35a = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_ec2805d2ee4998903a920ef50e11f9f7 = $(`<div id="html_ec2805d2ee4998903a920ef50e11f9f7" style="width: 100.0%; height: 100.0%;">Predicted Price: 95112.16 Baht/sq.wah</div>`)[0];
+                popup_45354b0f8b751032c343a6e78158d35a.setContent(html_ec2805d2ee4998903a920ef50e11f9f7);
+            
+        
+
+        circle_marker_51edb025a0e2be9c8d45b54ef364f300.bindPopup(popup_45354b0f8b751032c343a6e78158d35a)
+        ;
+
+        
+    
+    
+            var circle_marker_1a50f94438bc86b24cb585ad6b966314 = L.circleMarker(
+                [13.681404709532169, 100.58969174917807],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_a1ea1eb12cfad8072b7939ac04efaba7);
+        
+    
+        var popup_ec52f7aeea121689bc03ca2eab8bdf08 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_d0c99087a32f17105b87abe963d5405c = $(`<div id="html_d0c99087a32f17105b87abe963d5405c" style="width: 100.0%; height: 100.0%;">Predicted Price: 99286.95 Baht/sq.wah</div>`)[0];
+                popup_ec52f7aeea121689bc03ca2eab8bdf08.setContent(html_d0c99087a32f17105b87abe963d5405c);
+            
+        
+
+        circle_marker_1a50f94438bc86b24cb585ad6b966314.bindPopup(popup_ec52f7aeea121689bc03ca2eab8bdf08)
+        ;
+
+        
+    
+    
+            var circle_marker_cd7ffb777e8501859469b2a88af2296a = L.circleMarker(
+                [13.848621252745579, 100.59005891322828],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_a1ea1eb12cfad8072b7939ac04efaba7);
+        
+    
+        var popup_bfff57f64e81755d124ed84d96521ac7 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_032a01cff44e660fa6c247e4a72732bf = $(`<div id="html_032a01cff44e660fa6c247e4a72732bf" style="width: 100.0%; height: 100.0%;">Predicted Price: 89714.89 Baht/sq.wah</div>`)[0];
+                popup_bfff57f64e81755d124ed84d96521ac7.setContent(html_032a01cff44e660fa6c247e4a72732bf);
+            
+        
+
+        circle_marker_cd7ffb777e8501859469b2a88af2296a.bindPopup(popup_bfff57f64e81755d124ed84d96521ac7)
+        ;
+
+        
+    
+    
+            var circle_marker_912cdc4c9f6f87eebc9d865f341fa22f = L.circleMarker(
+                [13.707025998008076, 100.56073240522244],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_a1ea1eb12cfad8072b7939ac04efaba7);
+        
+    
+        var popup_2d2996d397304808147f3f69bf46d2c0 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_5c0c81f3da34965fc1b63426982feb14 = $(`<div id="html_5c0c81f3da34965fc1b63426982feb14" style="width: 100.0%; height: 100.0%;">Predicted Price: 91784.99 Baht/sq.wah</div>`)[0];
+                popup_2d2996d397304808147f3f69bf46d2c0.setContent(html_5c0c81f3da34965fc1b63426982feb14);
+            
+        
+
+        circle_marker_912cdc4c9f6f87eebc9d865f341fa22f.bindPopup(popup_2d2996d397304808147f3f69bf46d2c0)
+        ;
+
+        
+    
+    
+            var circle_marker_f9646fabf4974d713f50341687c08951 = L.circleMarker(
+                [13.684280352906214, 100.42708693101633],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_a1ea1eb12cfad8072b7939ac04efaba7);
+        
+    
+        var popup_4e265120d6e508dc26fb0016ec75613d = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_56e7f984d7e0042483b851e4e17b700c = $(`<div id="html_56e7f984d7e0042483b851e4e17b700c" style="width: 100.0%; height: 100.0%;">Predicted Price: 93143.77 Baht/sq.wah</div>`)[0];
+                popup_4e265120d6e508dc26fb0016ec75613d.setContent(html_56e7f984d7e0042483b851e4e17b700c);
+            
+        
+
+        circle_marker_f9646fabf4974d713f50341687c08951.bindPopup(popup_4e265120d6e508dc26fb0016ec75613d)
+        ;
+
+        
+    
+    
+            var circle_marker_aa0cc2b4c8ff0a7afedf9ace30179b3a = L.circleMarker(
+                [13.762808824947475, 100.65059074867678],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_a1ea1eb12cfad8072b7939ac04efaba7);
+        
+    
+        var popup_3540f45fa9631f9bb596652cd2b044a4 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_5693ca056a66a968a69dec7c2217530b = $(`<div id="html_5693ca056a66a968a69dec7c2217530b" style="width: 100.0%; height: 100.0%;">Predicted Price: 87897.93 Baht/sq.wah</div>`)[0];
+                popup_3540f45fa9631f9bb596652cd2b044a4.setContent(html_5693ca056a66a968a69dec7c2217530b);
+            
+        
+
+        circle_marker_aa0cc2b4c8ff0a7afedf9ace30179b3a.bindPopup(popup_3540f45fa9631f9bb596652cd2b044a4)
+        ;
+
+        
+    
+    
+            var circle_marker_4c82ff38a14efe7f0c1249b400631426 = L.circleMarker(
+                [13.642277267492428, 100.49623401949152],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_a1ea1eb12cfad8072b7939ac04efaba7);
+        
+    
+        var popup_233cc7e6cf785073b6a38c89470de78a = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_340b1ab2c1564d6c5865fe74446ef16d = $(`<div id="html_340b1ab2c1564d6c5865fe74446ef16d" style="width: 100.0%; height: 100.0%;">Predicted Price: 97323.28 Baht/sq.wah</div>`)[0];
+                popup_233cc7e6cf785073b6a38c89470de78a.setContent(html_340b1ab2c1564d6c5865fe74446ef16d);
+            
+        
+
+        circle_marker_4c82ff38a14efe7f0c1249b400631426.bindPopup(popup_233cc7e6cf785073b6a38c89470de78a)
+        ;
+
+        
+    
+    
+            var circle_marker_eab22e0217bb65919650374bb3f268d6 = L.circleMarker(
+                [13.840659094226211, 100.45595555311996],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_a1ea1eb12cfad8072b7939ac04efaba7);
+        
+    
+        var popup_47226896e338a357fe28a37f6a7f998c = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_c658134b59bcd57ba42692378610f00e = $(`<div id="html_c658134b59bcd57ba42692378610f00e" style="width: 100.0%; height: 100.0%;">Predicted Price: 91210.24 Baht/sq.wah</div>`)[0];
+                popup_47226896e338a357fe28a37f6a7f998c.setContent(html_c658134b59bcd57ba42692378610f00e);
+            
+        
+
+        circle_marker_eab22e0217bb65919650374bb3f268d6.bindPopup(popup_47226896e338a357fe28a37f6a7f998c)
+        ;
+
+        
+    
+    
+            var circle_marker_690af4d8c6c754fa2a8d2991ac086ae9 = L.circleMarker(
+                [13.622365193103931, 100.41223254246644],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_a1ea1eb12cfad8072b7939ac04efaba7);
+        
+    
+        var popup_3e0bd4dca515f80a3fbb5a3de69d9abf = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_5d909b815315ad6d1f97154e9a260d23 = $(`<div id="html_5d909b815315ad6d1f97154e9a260d23" style="width: 100.0%; height: 100.0%;">Predicted Price: 81750.68 Baht/sq.wah</div>`)[0];
+                popup_3e0bd4dca515f80a3fbb5a3de69d9abf.setContent(html_5d909b815315ad6d1f97154e9a260d23);
+            
+        
+
+        circle_marker_690af4d8c6c754fa2a8d2991ac086ae9.bindPopup(popup_3e0bd4dca515f80a3fbb5a3de69d9abf)
+        ;
+
+        
+    
+    
+            var circle_marker_394191a9ffd17eea87ca184745e12bec = L.circleMarker(
+                [13.896066080980155, 100.57726788295648],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_a1ea1eb12cfad8072b7939ac04efaba7);
+        
+    
+        var popup_a730203c41b4bde1f4125f285ba02812 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_a71c423c848c9cf5a7dcf8826d987c4b = $(`<div id="html_a71c423c848c9cf5a7dcf8826d987c4b" style="width: 100.0%; height: 100.0%;">Predicted Price: 79719.39 Baht/sq.wah</div>`)[0];
+                popup_a730203c41b4bde1f4125f285ba02812.setContent(html_a71c423c848c9cf5a7dcf8826d987c4b);
+            
+        
+
+        circle_marker_394191a9ffd17eea87ca184745e12bec.bindPopup(popup_a730203c41b4bde1f4125f285ba02812)
+        ;
+
+        
+    
+    
+            var circle_marker_953e36265fd605af29afcc2fb04120f2 = L.circleMarker(
+                [13.831673430788998, 100.60326930855268],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_a1ea1eb12cfad8072b7939ac04efaba7);
+        
+    
+        var popup_63f0cec27d5f7f7c3c95261b94a8852c = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_0811873e5b7a2406b5c1dbe372e7a6fe = $(`<div id="html_0811873e5b7a2406b5c1dbe372e7a6fe" style="width: 100.0%; height: 100.0%;">Predicted Price: 90164.53 Baht/sq.wah</div>`)[0];
+                popup_63f0cec27d5f7f7c3c95261b94a8852c.setContent(html_0811873e5b7a2406b5c1dbe372e7a6fe);
+            
+        
+
+        circle_marker_953e36265fd605af29afcc2fb04120f2.bindPopup(popup_63f0cec27d5f7f7c3c95261b94a8852c)
+        ;
+
+        
+    
+    
+            var circle_marker_582a615636c084a808195bea260a532b = L.circleMarker(
+                [13.659614704460251, 100.40497634867836],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_a1ea1eb12cfad8072b7939ac04efaba7);
+        
+    
+        var popup_36e28fe74806d7380ca2de7f57dde43d = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_9f7a778015bf06214aa15f1a785d5a80 = $(`<div id="html_9f7a778015bf06214aa15f1a785d5a80" style="width: 100.0%; height: 100.0%;">Predicted Price: 89890.92 Baht/sq.wah</div>`)[0];
+                popup_36e28fe74806d7380ca2de7f57dde43d.setContent(html_9f7a778015bf06214aa15f1a785d5a80);
+            
+        
+
+        circle_marker_582a615636c084a808195bea260a532b.bindPopup(popup_36e28fe74806d7380ca2de7f57dde43d)
+        ;
+
+        
+    
+    
+            var circle_marker_28213972dd6da48fd82495406e1f9084 = L.circleMarker(
+                [13.601656635137081, 100.55362791748979],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_a1ea1eb12cfad8072b7939ac04efaba7);
+        
+    
+        var popup_dc1a6492e3de4fa59887a3137a16f965 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_0903420d2266e8c83dad507c485a8890 = $(`<div id="html_0903420d2266e8c83dad507c485a8890" style="width: 100.0%; height: 100.0%;">Predicted Price: 88068.70 Baht/sq.wah</div>`)[0];
+                popup_dc1a6492e3de4fa59887a3137a16f965.setContent(html_0903420d2266e8c83dad507c485a8890);
+            
+        
+
+        circle_marker_28213972dd6da48fd82495406e1f9084.bindPopup(popup_dc1a6492e3de4fa59887a3137a16f965)
+        ;
+
+        
+    
+    
+            var circle_marker_2639d1ed2d536299aada1a73c3117556 = L.circleMarker(
+                [13.84463842853645, 100.46794873255939],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_a1ea1eb12cfad8072b7939ac04efaba7);
+        
+    
+        var popup_106e3bf4dd2f89b7bf47252638ef7325 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_cf9beb4f5c40fd35aaf60a8a30885f0f = $(`<div id="html_cf9beb4f5c40fd35aaf60a8a30885f0f" style="width: 100.0%; height: 100.0%;">Predicted Price: 84139.21 Baht/sq.wah</div>`)[0];
+                popup_106e3bf4dd2f89b7bf47252638ef7325.setContent(html_cf9beb4f5c40fd35aaf60a8a30885f0f);
+            
+        
+
+        circle_marker_2639d1ed2d536299aada1a73c3117556.bindPopup(popup_106e3bf4dd2f89b7bf47252638ef7325)
+        ;
+
+        
+    
+    
+            var circle_marker_319bfa0fff205e48018296a976c3a697 = L.circleMarker(
+                [13.812057203154286, 100.59355183712285],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_a1ea1eb12cfad8072b7939ac04efaba7);
+        
+    
+        var popup_9c76b38ad154499468bd0d9546f67c8a = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_266967e88c60d529c4c0da0abef46da8 = $(`<div id="html_266967e88c60d529c4c0da0abef46da8" style="width: 100.0%; height: 100.0%;">Predicted Price: 97838.31 Baht/sq.wah</div>`)[0];
+                popup_9c76b38ad154499468bd0d9546f67c8a.setContent(html_266967e88c60d529c4c0da0abef46da8);
+            
+        
+
+        circle_marker_319bfa0fff205e48018296a976c3a697.bindPopup(popup_9c76b38ad154499468bd0d9546f67c8a)
+        ;
+
+        
+    
+    
+            var circle_marker_ff46496d1f4c9d97c934733791153c4d = L.circleMarker(
+                [13.818702150412296, 100.4523099287015],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_a1ea1eb12cfad8072b7939ac04efaba7);
+        
+    
+        var popup_ba4f227e8bab0c91ba6985473acc28fa = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_50e93a6b2eb1caac79891d97a0d5bf33 = $(`<div id="html_50e93a6b2eb1caac79891d97a0d5bf33" style="width: 100.0%; height: 100.0%;">Predicted Price: 85327.83 Baht/sq.wah</div>`)[0];
+                popup_ba4f227e8bab0c91ba6985473acc28fa.setContent(html_50e93a6b2eb1caac79891d97a0d5bf33);
+            
+        
+
+        circle_marker_ff46496d1f4c9d97c934733791153c4d.bindPopup(popup_ba4f227e8bab0c91ba6985473acc28fa)
+        ;
+
+        
+    
+    
+            var circle_marker_3ca07ffd32ad3523a6c1e7ecda4a7a0f = L.circleMarker(
+                [13.831381104005784, 100.60728132143075],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_a1ea1eb12cfad8072b7939ac04efaba7);
+        
+    
+        var popup_b104383d69d104fde1138668cc46719b = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_bdbb24c7714840997cb8e61e147ed1b8 = $(`<div id="html_bdbb24c7714840997cb8e61e147ed1b8" style="width: 100.0%; height: 100.0%;">Predicted Price: 94700.18 Baht/sq.wah</div>`)[0];
+                popup_b104383d69d104fde1138668cc46719b.setContent(html_bdbb24c7714840997cb8e61e147ed1b8);
+            
+        
+
+        circle_marker_3ca07ffd32ad3523a6c1e7ecda4a7a0f.bindPopup(popup_b104383d69d104fde1138668cc46719b)
+        ;
+
+        
+    
+    
+            var circle_marker_e5a6f47c67f3a06ef00b2152d312a8d2 = L.circleMarker(
+                [13.622213395520227, 100.51602060389017],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_a1ea1eb12cfad8072b7939ac04efaba7);
+        
+    
+        var popup_d6daf10694a87499e882df15b43a1387 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_3f275ef9292d35bd32cc12f256d1a797 = $(`<div id="html_3f275ef9292d35bd32cc12f256d1a797" style="width: 100.0%; height: 100.0%;">Predicted Price: 87161.47 Baht/sq.wah</div>`)[0];
+                popup_d6daf10694a87499e882df15b43a1387.setContent(html_3f275ef9292d35bd32cc12f256d1a797);
+            
+        
+
+        circle_marker_e5a6f47c67f3a06ef00b2152d312a8d2.bindPopup(popup_d6daf10694a87499e882df15b43a1387)
+        ;
+
+        
+    
+    
+            var circle_marker_b7f50a0864c4e766feee117de1da4aa4 = L.circleMarker(
+                [13.707539718563282, 100.68101899662102],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_a1ea1eb12cfad8072b7939ac04efaba7);
+        
+    
+        var popup_eb2b060b2dffe613110bb8c3fac8d83f = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_2c45a97ec1d15eba77bbdeeee613e879 = $(`<div id="html_2c45a97ec1d15eba77bbdeeee613e879" style="width: 100.0%; height: 100.0%;">Predicted Price: 84211.43 Baht/sq.wah</div>`)[0];
+                popup_eb2b060b2dffe613110bb8c3fac8d83f.setContent(html_2c45a97ec1d15eba77bbdeeee613e879);
+            
+        
+
+        circle_marker_b7f50a0864c4e766feee117de1da4aa4.bindPopup(popup_eb2b060b2dffe613110bb8c3fac8d83f)
+        ;
+
+        
+    
+    
+            var circle_marker_b9b5eda76edf5ac548cc56d7cb1ec352 = L.circleMarker(
+                [13.634760717857539, 100.4412562832438],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_a1ea1eb12cfad8072b7939ac04efaba7);
+        
+    
+        var popup_bbb22259ee47c8a088a406a92a79171e = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_67ff97ce64736078bb24e6ddba21e4a3 = $(`<div id="html_67ff97ce64736078bb24e6ddba21e4a3" style="width: 100.0%; height: 100.0%;">Predicted Price: 92946.31 Baht/sq.wah</div>`)[0];
+                popup_bbb22259ee47c8a088a406a92a79171e.setContent(html_67ff97ce64736078bb24e6ddba21e4a3);
+            
+        
+
+        circle_marker_b9b5eda76edf5ac548cc56d7cb1ec352.bindPopup(popup_bbb22259ee47c8a088a406a92a79171e)
+        ;
+
+        
+    
+    
+            var circle_marker_44b19102ed131cab3fdd47dfee0b589a = L.circleMarker(
+                [13.858931027762678, 100.50231990531508],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_a1ea1eb12cfad8072b7939ac04efaba7);
+        
+    
+        var popup_6bcb805c6c083b7662547419cb7dd12a = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_e5556c29ca3a94c775916ec03af595bb = $(`<div id="html_e5556c29ca3a94c775916ec03af595bb" style="width: 100.0%; height: 100.0%;">Predicted Price: 86656.81 Baht/sq.wah</div>`)[0];
+                popup_6bcb805c6c083b7662547419cb7dd12a.setContent(html_e5556c29ca3a94c775916ec03af595bb);
+            
+        
+
+        circle_marker_44b19102ed131cab3fdd47dfee0b589a.bindPopup(popup_6bcb805c6c083b7662547419cb7dd12a)
+        ;
+
+        
+    
+    
+            var circle_marker_1d95045da0853e099f02859e83e1a2be = L.circleMarker(
+                [13.786989438048268, 100.43404205637218],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_a1ea1eb12cfad8072b7939ac04efaba7);
+        
+    
+        var popup_2fb676011a5d6fe1510a616d8bde1a0b = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_5d5f9b320d05d658b208e78dfb479b1a = $(`<div id="html_5d5f9b320d05d658b208e78dfb479b1a" style="width: 100.0%; height: 100.0%;">Predicted Price: 94090.67 Baht/sq.wah</div>`)[0];
+                popup_2fb676011a5d6fe1510a616d8bde1a0b.setContent(html_5d5f9b320d05d658b208e78dfb479b1a);
+            
+        
+
+        circle_marker_1d95045da0853e099f02859e83e1a2be.bindPopup(popup_2fb676011a5d6fe1510a616d8bde1a0b)
+        ;
+
+        
+    
+    
+            var circle_marker_95fe74f47e81868608251df2b8acbf0b = L.circleMarker(
+                [13.699269407455795, 100.67740808548358],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_a1ea1eb12cfad8072b7939ac04efaba7);
+        
+    
+        var popup_fbb1aa73b7cd131b5502c5bb89f21f03 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_70bde1c67092ba5fcc4c20e78ce8d584 = $(`<div id="html_70bde1c67092ba5fcc4c20e78ce8d584" style="width: 100.0%; height: 100.0%;">Predicted Price: 91096.13 Baht/sq.wah</div>`)[0];
+                popup_fbb1aa73b7cd131b5502c5bb89f21f03.setContent(html_70bde1c67092ba5fcc4c20e78ce8d584);
+            
+        
+
+        circle_marker_95fe74f47e81868608251df2b8acbf0b.bindPopup(popup_fbb1aa73b7cd131b5502c5bb89f21f03)
+        ;
+
+        
+    
+    
+            var circle_marker_c659ddc6f329b7ace252033003b5090f = L.circleMarker(
+                [13.619067505085807, 100.6632018060143],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_a1ea1eb12cfad8072b7939ac04efaba7);
+        
+    
+        var popup_1971fa46e895bd07e2c24dfba2ba620f = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_612fff11c3d764dfeb8ad32c507bb0d0 = $(`<div id="html_612fff11c3d764dfeb8ad32c507bb0d0" style="width: 100.0%; height: 100.0%;">Predicted Price: 81031.20 Baht/sq.wah</div>`)[0];
+                popup_1971fa46e895bd07e2c24dfba2ba620f.setContent(html_612fff11c3d764dfeb8ad32c507bb0d0);
+            
+        
+
+        circle_marker_c659ddc6f329b7ace252033003b5090f.bindPopup(popup_1971fa46e895bd07e2c24dfba2ba620f)
+        ;
+
+        
+    
+    
+            var circle_marker_b8d050f58788946dc7ae13cafc0cbee3 = L.circleMarker(
+                [13.693294696514698, 100.47738248831455],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_a1ea1eb12cfad8072b7939ac04efaba7);
+        
+    
+        var popup_5ff10dea7299615f08bfe94264967b0a = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_f5b45a036337a1272615d7d2c6bc46a2 = $(`<div id="html_f5b45a036337a1272615d7d2c6bc46a2" style="width: 100.0%; height: 100.0%;">Predicted Price: 99991.93 Baht/sq.wah</div>`)[0];
+                popup_5ff10dea7299615f08bfe94264967b0a.setContent(html_f5b45a036337a1272615d7d2c6bc46a2);
+            
+        
+
+        circle_marker_b8d050f58788946dc7ae13cafc0cbee3.bindPopup(popup_5ff10dea7299615f08bfe94264967b0a)
+        ;
+
+        
+    
+    
+            var circle_marker_4cbcb4b234d8407eb9d17c37a6171887 = L.circleMarker(
+                [13.697554996608025, 100.59799521381025],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_a1ea1eb12cfad8072b7939ac04efaba7);
+        
+    
+        var popup_ae15bb701c446d235e9733a62bcde89d = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_72a77da7095ce702d83542b207428f49 = $(`<div id="html_72a77da7095ce702d83542b207428f49" style="width: 100.0%; height: 100.0%;">Predicted Price: 90409.56 Baht/sq.wah</div>`)[0];
+                popup_ae15bb701c446d235e9733a62bcde89d.setContent(html_72a77da7095ce702d83542b207428f49);
+            
+        
+
+        circle_marker_4cbcb4b234d8407eb9d17c37a6171887.bindPopup(popup_ae15bb701c446d235e9733a62bcde89d)
+        ;
+
+        
+    
+    
+            var circle_marker_fc5ed5959a2960b7760740f0791b14ce = L.circleMarker(
+                [13.81888185350142, 100.64516666006037],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_a1ea1eb12cfad8072b7939ac04efaba7);
+        
+    
+        var popup_faf1a843aaf86f26695ae36b2b404932 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_a480dd04112dac16e65bf005c2951d96 = $(`<div id="html_a480dd04112dac16e65bf005c2951d96" style="width: 100.0%; height: 100.0%;">Predicted Price: 89358.28 Baht/sq.wah</div>`)[0];
+                popup_faf1a843aaf86f26695ae36b2b404932.setContent(html_a480dd04112dac16e65bf005c2951d96);
+            
+        
+
+        circle_marker_fc5ed5959a2960b7760740f0791b14ce.bindPopup(popup_faf1a843aaf86f26695ae36b2b404932)
+        ;
+
+        
+    
+    
+            var circle_marker_a85f26e46a12febb04c06ae8f4489803 = L.circleMarker(
+                [13.791267241406564, 100.56656024347984],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_a1ea1eb12cfad8072b7939ac04efaba7);
+        
+    
+        var popup_48e3d5a5aa7e463e45f3c544c9effdbe = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_7c7a27666cca75b5a824ffbec38e3202 = $(`<div id="html_7c7a27666cca75b5a824ffbec38e3202" style="width: 100.0%; height: 100.0%;">Predicted Price: 94366.77 Baht/sq.wah</div>`)[0];
+                popup_48e3d5a5aa7e463e45f3c544c9effdbe.setContent(html_7c7a27666cca75b5a824ffbec38e3202);
+            
+        
+
+        circle_marker_a85f26e46a12febb04c06ae8f4489803.bindPopup(popup_48e3d5a5aa7e463e45f3c544c9effdbe)
+        ;
+
+        
+    
+    
+            var circle_marker_8753a522e9264b521c023c53e8d12414 = L.circleMarker(
+                [13.866163822772899, 100.55889517350681],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_a1ea1eb12cfad8072b7939ac04efaba7);
+        
+    
+        var popup_d2c48918fb7afde3a172c3e75ca0268d = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_7fa0653a4c0baf7834201eaab0d3f6b3 = $(`<div id="html_7fa0653a4c0baf7834201eaab0d3f6b3" style="width: 100.0%; height: 100.0%;">Predicted Price: 86954.58 Baht/sq.wah</div>`)[0];
+                popup_d2c48918fb7afde3a172c3e75ca0268d.setContent(html_7fa0653a4c0baf7834201eaab0d3f6b3);
+            
+        
+
+        circle_marker_8753a522e9264b521c023c53e8d12414.bindPopup(popup_d2c48918fb7afde3a172c3e75ca0268d)
+        ;
+
+        
+    
+    
+            var circle_marker_0963c05ede2140c6dc5a9eb786fbb1e6 = L.circleMarker(
+                [13.741664477548586, 100.47255568727014],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_a1ea1eb12cfad8072b7939ac04efaba7);
+        
+    
+        var popup_b7fab142e39192af6e8e472527a165d1 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_4c49c15b1ea1a43d6ea70add1f5c4cdc = $(`<div id="html_4c49c15b1ea1a43d6ea70add1f5c4cdc" style="width: 100.0%; height: 100.0%;">Predicted Price: 99600.87 Baht/sq.wah</div>`)[0];
+                popup_b7fab142e39192af6e8e472527a165d1.setContent(html_4c49c15b1ea1a43d6ea70add1f5c4cdc);
+            
+        
+
+        circle_marker_0963c05ede2140c6dc5a9eb786fbb1e6.bindPopup(popup_b7fab142e39192af6e8e472527a165d1)
+        ;
+
+        
+    
+    
+            var circle_marker_29b0b084bd931d48d19724ab9889e79f = L.circleMarker(
+                [13.63587827378149, 100.42793083034178],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_a1ea1eb12cfad8072b7939ac04efaba7);
+        
+    
+        var popup_7b46f9cdeb3b0bf294c0f177ffb5bed6 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_647de6c4dea55ffd75ee32e3a3ffb81e = $(`<div id="html_647de6c4dea55ffd75ee32e3a3ffb81e" style="width: 100.0%; height: 100.0%;">Predicted Price: 90555.34 Baht/sq.wah</div>`)[0];
+                popup_7b46f9cdeb3b0bf294c0f177ffb5bed6.setContent(html_647de6c4dea55ffd75ee32e3a3ffb81e);
+            
+        
+
+        circle_marker_29b0b084bd931d48d19724ab9889e79f.bindPopup(popup_7b46f9cdeb3b0bf294c0f177ffb5bed6)
+        ;
+
+        
+    
+    
+            var circle_marker_c08289288ced913c1b5e7e95732769ec = L.circleMarker(
+                [13.813973436166899, 100.669164727386],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_a1ea1eb12cfad8072b7939ac04efaba7);
+        
+    
+        var popup_193dc90471f1faff8eaabfb388641c34 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_0bbd0d46314a8b12d55a9d1a7ef76e5e = $(`<div id="html_0bbd0d46314a8b12d55a9d1a7ef76e5e" style="width: 100.0%; height: 100.0%;">Predicted Price: 94757.83 Baht/sq.wah</div>`)[0];
+                popup_193dc90471f1faff8eaabfb388641c34.setContent(html_0bbd0d46314a8b12d55a9d1a7ef76e5e);
+            
+        
+
+        circle_marker_c08289288ced913c1b5e7e95732769ec.bindPopup(popup_193dc90471f1faff8eaabfb388641c34)
+        ;
+
+        
+    
+    
+            var circle_marker_6a71f563d990ac8af864fa7251144cbf = L.circleMarker(
+                [13.828235514585069, 100.67012541714901],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_a1ea1eb12cfad8072b7939ac04efaba7);
+        
+    
+        var popup_329c4135246a32c3cdf70356d6932d78 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_52fed4f6e0661564a37521d2a7865564 = $(`<div id="html_52fed4f6e0661564a37521d2a7865564" style="width: 100.0%; height: 100.0%;">Predicted Price: 81587.27 Baht/sq.wah</div>`)[0];
+                popup_329c4135246a32c3cdf70356d6932d78.setContent(html_52fed4f6e0661564a37521d2a7865564);
+            
+        
+
+        circle_marker_6a71f563d990ac8af864fa7251144cbf.bindPopup(popup_329c4135246a32c3cdf70356d6932d78)
+        ;
+
+        
+    
+    
+            var circle_marker_bd8c9464ff3790a059101b9d4465c3e0 = L.circleMarker(
+                [13.768383159270849, 100.58993043718199],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_a1ea1eb12cfad8072b7939ac04efaba7);
+        
+    
+        var popup_1f92e1c72a11589f73d141cbcc9e48b7 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_421e8a1a1e7582ba717cb10c4940ed9f = $(`<div id="html_421e8a1a1e7582ba717cb10c4940ed9f" style="width: 100.0%; height: 100.0%;">Predicted Price: 84883.37 Baht/sq.wah</div>`)[0];
+                popup_1f92e1c72a11589f73d141cbcc9e48b7.setContent(html_421e8a1a1e7582ba717cb10c4940ed9f);
+            
+        
+
+        circle_marker_bd8c9464ff3790a059101b9d4465c3e0.bindPopup(popup_1f92e1c72a11589f73d141cbcc9e48b7)
+        ;
+
+        
+    
+    
+            var circle_marker_ec31eef030baa40b6ef8fde463891713 = L.circleMarker(
+                [13.831290153986368, 100.50170893731462],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_a1ea1eb12cfad8072b7939ac04efaba7);
+        
+    
+        var popup_7065a8bbbd3d68e23e5fce1e9af427f7 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_4d294918b3bca9b212c9280695c3b998 = $(`<div id="html_4d294918b3bca9b212c9280695c3b998" style="width: 100.0%; height: 100.0%;">Predicted Price: 98302.49 Baht/sq.wah</div>`)[0];
+                popup_7065a8bbbd3d68e23e5fce1e9af427f7.setContent(html_4d294918b3bca9b212c9280695c3b998);
+            
+        
+
+        circle_marker_ec31eef030baa40b6ef8fde463891713.bindPopup(popup_7065a8bbbd3d68e23e5fce1e9af427f7)
+        ;
+
+        
+    
+    
+            var circle_marker_ef6f68d840866daec5492993a9e6652d = L.circleMarker(
+                [13.748138678909317, 100.50476287238381],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_a1ea1eb12cfad8072b7939ac04efaba7);
+        
+    
+        var popup_eee5cd47ba11a9030e19d54f69adb3f2 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_3bdc3e473fb76d46009fd3b2404f0fd5 = $(`<div id="html_3bdc3e473fb76d46009fd3b2404f0fd5" style="width: 100.0%; height: 100.0%;">Predicted Price: 99197.45 Baht/sq.wah</div>`)[0];
+                popup_eee5cd47ba11a9030e19d54f69adb3f2.setContent(html_3bdc3e473fb76d46009fd3b2404f0fd5);
+            
+        
+
+        circle_marker_ef6f68d840866daec5492993a9e6652d.bindPopup(popup_eee5cd47ba11a9030e19d54f69adb3f2)
+        ;
+
+        
+    
+    
+            var circle_marker_98069ec4e9c4a2fd84ed208d3a1b22a6 = L.circleMarker(
+                [13.756819848814597, 100.61778670366108],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_a1ea1eb12cfad8072b7939ac04efaba7);
+        
+    
+        var popup_8e5ddd2053bbd9b3ef227bcbe6bf24eb = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_f6f08f3aac60f60fcf4ea9efd312a805 = $(`<div id="html_f6f08f3aac60f60fcf4ea9efd312a805" style="width: 100.0%; height: 100.0%;">Predicted Price: 96842.41 Baht/sq.wah</div>`)[0];
+                popup_8e5ddd2053bbd9b3ef227bcbe6bf24eb.setContent(html_f6f08f3aac60f60fcf4ea9efd312a805);
+            
+        
+
+        circle_marker_98069ec4e9c4a2fd84ed208d3a1b22a6.bindPopup(popup_8e5ddd2053bbd9b3ef227bcbe6bf24eb)
+        ;
+
+        
+    
+    
+            var circle_marker_217e1797243af7e6668654c62a6d3ef0 = L.circleMarker(
+                [13.728262305507565, 100.66913307798578],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_a1ea1eb12cfad8072b7939ac04efaba7);
+        
+    
+        var popup_3bf42a98a22691abc7fe0f04b06c0fa5 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_632a2cc140a63c85d081cba7bd8012f3 = $(`<div id="html_632a2cc140a63c85d081cba7bd8012f3" style="width: 100.0%; height: 100.0%;">Predicted Price: 89732.09 Baht/sq.wah</div>`)[0];
+                popup_3bf42a98a22691abc7fe0f04b06c0fa5.setContent(html_632a2cc140a63c85d081cba7bd8012f3);
+            
+        
+
+        circle_marker_217e1797243af7e6668654c62a6d3ef0.bindPopup(popup_3bf42a98a22691abc7fe0f04b06c0fa5)
+        ;
+
+        
+    
+    
+            var circle_marker_7b16f2e6fdb47f29138b4def11f050da = L.circleMarker(
+                [13.607625738023229, 100.66612592727954],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_a1ea1eb12cfad8072b7939ac04efaba7);
+        
+    
+        var popup_9fdee4c2078c500aee2e5843f630d63f = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_a7ee9a436259a07673d395534dd53670 = $(`<div id="html_a7ee9a436259a07673d395534dd53670" style="width: 100.0%; height: 100.0%;">Predicted Price: 84109.94 Baht/sq.wah</div>`)[0];
+                popup_9fdee4c2078c500aee2e5843f630d63f.setContent(html_a7ee9a436259a07673d395534dd53670);
+            
+        
+
+        circle_marker_7b16f2e6fdb47f29138b4def11f050da.bindPopup(popup_9fdee4c2078c500aee2e5843f630d63f)
+        ;
+
+        
+    
+    
+            var circle_marker_ba1e9f77e7c170879070694cf071efa7 = L.circleMarker(
+                [13.632367428097991, 100.63396266375729],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_a1ea1eb12cfad8072b7939ac04efaba7);
+        
+    
+        var popup_da3a6fb603b54bc5abd5b74924cb3ed7 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_877f410fa511e5ad89bd5ad6ae29b49a = $(`<div id="html_877f410fa511e5ad89bd5ad6ae29b49a" style="width: 100.0%; height: 100.0%;">Predicted Price: 80036.30 Baht/sq.wah</div>`)[0];
+                popup_da3a6fb603b54bc5abd5b74924cb3ed7.setContent(html_877f410fa511e5ad89bd5ad6ae29b49a);
+            
+        
+
+        circle_marker_ba1e9f77e7c170879070694cf071efa7.bindPopup(popup_da3a6fb603b54bc5abd5b74924cb3ed7)
+        ;
+
+        
+    
+</script>
+</html>
